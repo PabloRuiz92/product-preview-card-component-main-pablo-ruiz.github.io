@@ -1,7 +1,53 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 1440;
+    height: 800;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #F3EAE3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.containerFluid {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
+    width: 37.5em;
+    height: 28.125em;
+}
+
+.containerImage {
+    width: 18.75em;
+}
+
+.productImage {
+    width:inherit;
+}
+
+.containerText {
+    width: 18.75em;
+    background-color: white;
+}
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .attribution a { 
