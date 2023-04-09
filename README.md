@@ -22,8 +22,8 @@ Project to practice HTML, CSS.
 
 ### Links
 
-- Solution repository: ()
-- Live Site URL: ()
+- Solution repository: (https://github.com/PabloRuiz92/product-preview-card-component-main-pablo-ruiz.github.io)
+- Live Site URL: (https://pabloruiz92.github.io/product-preview-card-component-main-pablo-ruiz.github.io/)
 
 ### Built with
 
@@ -32,7 +32,6 @@ Project to practice HTML, CSS.
 - Flexbox
 - CSS Grid
 - Bootsrap 5
-- Mobile-first workflow
 
 ## Author
 
