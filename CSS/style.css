@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #73747A;
 }
 
 html {
@@ -40,6 +41,59 @@ body {
     width: 18.75em;
     background-color: white;
     border-radius: 0 .5em .5em 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerText>h4 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .15em;
+}
+
+.productName {
+    color: black;
+    font-family: 'Fraunces', serif;
+}
+
+.ProductDescription {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.containerPrices {
+    display: flex;
+    align-items: center;
+}
+
+.discountedPrice {
+    color: #3D8168;
+    font-family: 'Fraunces', serif;
+    margin-right: .75em;
+}
+
+.originalPrice {
+    text-decoration: line-through;
+    font-family: 'Fraunces', serif;
+}
+
+.btnAddCart{
+    width: 100%;
+    color: white;
+    background-color: #3D8168;
+    border-radius: .5em;
+    border-width: 0;
+    height: 3em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnAddCart>img {
+    margin-right: .25em;
 }
 
 .attribution { 
@@ -53,3 +107,7 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* font-family: 'Fraunces', serif;
+
+font-family: 'Montserrat', sans-serif; */
