@@ -14,10 +14,8 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     background-color: #F3EAE3;
-}
-
-main {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -35,11 +33,13 @@ main {
 
 .productImage {
     width:inherit;
+    border-radius: .5em 0 0 .5em;
 }
 
 .containerText {
     width: 18.75em;
     background-color: white;
+    border-radius: 0 .5em .5em 0;
 }
 
 .attribution { 
